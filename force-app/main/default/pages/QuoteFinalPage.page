@@ -1,0 +1,13 @@
+<apex:page showHeader="false" sidebar="false" cache="false" contentType="text/xml" controller="SBQQ.DocumentGeneratorController">
+<block absolute-position="absolute" margin-top="-22px" margin-left="-19px">
+<external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/lastLeft.jpg" content-width="7.8cm"/>
+</block>
+<block absolute-position="absolute" margin-top="-1005px" margin-left="220px">
+<external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/lastRight.jpg" content-width="13.5cm"/>
+</block>
+<block-container absolute-position="absolute" width="1000px" margin-top="270px" margin-left="242.5px" text-align="left" content-width="21cm">
+<block color="#FFFFFF" font-size="18px" font-family="Open Sans" margin-top="465px">{!quote.sales_rep_name__c}</block>
+<block color="#FFFFFF" font-size="18px" font-family="Open Sans" >m: {!quote.sales_rep_mobile__c}</block>
+<block color="#FFFFFF" font-size="18px" font-family="Open Sans" >e: {!quote.sales_rep_email__c}</block>
+</block-container>
+</apex:page>

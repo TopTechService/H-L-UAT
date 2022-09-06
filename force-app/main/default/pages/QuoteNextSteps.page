@@ -1,0 +1,77 @@
+<apex:page showHeader="false" sidebar="false" cache="false" contentType="text/xml">
+<block-container absolute-position="absolute" top="0px" left="0px">
+    <block height="10.0cm" absolute-position="absolute" margin-top="-5px" margin-left="30px" display-align="center">
+        <external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/next_steps.jpg" content-width="300px"/>
+    </block>
+    <block absolute-position="absolute" margin-top="-136px" margin-left="380px">
+        <external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/sideImage.jpg" content-width="210px"/>
+    </block>
+</block-container>
+<block-container absolute-position="absolute" top="125px" left="0px">
+    <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-right="180px" margin-top="0px">
+        <![CDATA[Choose to sign your quote electronically, or fill in your purchase order and fax it to +61 8 8291 9550, or email it to sales@hlaustralia.com.au.]]>
+    </block>
+    <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-right="180px" margin-top="10px">
+        <![CDATA[Please note that by signing the quote, you are agreeing to H&L's Terms and Conditions which can be view at:]]>
+    </block>
+    <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-right="180px" margin-top="10px">
+        <![CDATA[https://hlaustralia.com.au/images/HLAustralia_Terms_of_Sale.pdf.]]>
+    </block>
+    <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-right="180px" margin-top="10px">
+        <![CDATA[We will be in contact with you to get your POS up and running once we receive your deposit. From here we will contact you and tailor the training and installation process to your timeline and needs.]]>
+    </block>
+</block-container>
+<!-- block 1 -->
+<block-container absolute-position="absolute" top="325px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="20px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">1</block>
+</block-container>
+<block-container absolute-position="absolute" top="325px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="10px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="10px">Accept the quote</block>
+    <block color="#6C6062" font-size="10pt" font-family="Open Sans" display-align="center" text-align="left" font-style="italic" margin-top="0px">- Let us know you wish to procced.
+    We organise the paperwork. You pay your deposit / organise your finance.</block>
+</block-container>
+
+<!-- block 2 -->
+<block-container absolute-position="absolute" top="395px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="20px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">2</block>
+</block-container>
+<block-container absolute-position="absolute" top="395px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="20px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="10px">Book in training with our team</block>
+    <block color="#6C6062" font-size="10pt" font-family="Open Sans" display-align="center" text-align="left" font-style="italic" margin-top="0px">- Expect a call in 24-48 hours from our onboarding team.
+    You will be allocated a dedicated trainer/project manager.</block>
+</block-container>
+
+<!-- block 3 -->
+<block-container absolute-position="absolute" top="465px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="20px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">3</block>
+</block-container>
+<block-container absolute-position="absolute" top="465px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="20px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="10px"><![CDATA[Make sure your site is ready to install H&L]]></block>
+    <block color="#6C6062" font-size="10pt" font-family="Open Sans" display-align="center" text-align="left" font-style="italic" margin-top="0px"><![CDATA[- Organise cabling, internet, and holes in benches (if required)]]></block>
+</block-container>
+
+<!-- block 4 -->
+<block-container absolute-position="absolute" top="535px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="40px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">4</block>
+</block-container>
+<block-container absolute-position="absolute" top="535px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="40px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="25px">Training sessions are held prior to your live day</block>
+</block-container>
+
+<!-- block 5 -->
+<block-container absolute-position="absolute" top="605px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="40px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">5</block>
+</block-container>
+<block-container absolute-position="absolute" top="605px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="40px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="25px">LIVE DAY</block>
+</block-container>
+
+<!-- block 6 -->
+<block-container absolute-position="absolute" top="675px" left="0px" background-color="#4598CE" height="60px" width="60px" margin-top="20px">
+    <block color="#FFFFFF" font-size="40pt" font-family="Open Sans" display-align="center" text-align="center" font-weight="bold" margin-top="10px">6</block>
+</block-container>
+<block-container absolute-position="absolute" top="675px" left="60px" background-color="#DDEBF1" height="60px" width="295px" margin-top="20px" margin-left="5px">
+    <block color="#6C6062" font-size="12pt" font-family="Open Sans" display-align="center" text-align="left" font-weight="bold" margin-top="10px"><![CDATA[Congratulations - you're now running H&L!]]></block>
+    <block color="#6C6062" font-size="10pt" font-family="Open Sans" display-align="center" text-align="left" font-style="italic" margin-top="0px">- Any further questions, your dedicated Account Manager can help</block>
+</block-container>
+</apex:page>

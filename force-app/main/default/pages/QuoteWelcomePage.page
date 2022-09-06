@@ -1,0 +1,48 @@
+<apex:page showHeader="false" sidebar="false" cache="false" contentType="text/xml" controller="SBQQ.DocumentGeneratorController">
+    <block-container height="20cm" width="400px" top="170px" left="-30px">
+        <block height="4.0cm" absolute-position="absolute" margin-top="0px" margin-left="15px">
+            <external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/welcome.jpg" content-width="8.5cm"/>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="10px" font-weight="bold">
+            <![CDATA[About H&L]]>
+        </block>
+        <block color="#6C6062" absolute-position="absolute" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            <![CDATA[H&L has been at the forefront of technology in the hospitality and food and beverage industry for over 30
+            years. The intuitive and customer-centric approach behind our innovative products is why so many venues
+            choose H&L, and why many of our customers are multi-award winners. ]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            <![CDATA[We believe in a whole business approach: managing your entire business from one place and one system. Our industry knowledge
+            and range of products means we find the perfect solution for your venue so that you can operate with maximum efficiency in the most cost-effective way. ]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            <![CDATA[The team at H&L is dedicated to providing excellence in service and will work closely with you to ensure your  business needs are met. ]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px" font-weight="bold">
+            <![CDATA[How we are different]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+           <![CDATA[ - Our customers will tell you that we are innovative. We develop best practice industry features
+in our products while many of our competitors develop to the minimum requirement.]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            <![CDATA[ - We have established long term working relationships with some of Australia's leading premium
+hospitality groups. ]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            <![CDATA[ - Our partners will tell you that we develop comprehensive and stable APIs to many
+complimentary products]]>
+        </block>
+        <block color="#6C6062" font-size="12px" font-family="Open Sans" display-align="center" text-align="left" margin-left="0px" margin-top="15px">
+            - We always deliver what we promise.
+        </block>
+        <block height="35.7cm" absolute-position="absolute" margin-top="-660px" margin-left="410px">
+            <external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/electra_1.jpg" content-width="6.5cm"/>
+        </block>
+        <block-container background-color="#7CC293" height="210px" width="21cm" absolute-position="absolute" top="620px" left="-15px">
+            <block color="#FFFFFF" font-size="12px" font-family="Open Sans" display-align="center" text-align="center" margin-left="0px" margin-top="10px">
+                <![CDATA[.]]>
+            </block>
+        </block-container>
+    </block-container>
+</apex:page>

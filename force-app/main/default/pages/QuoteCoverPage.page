@@ -1,0 +1,20 @@
+<apex:page showHeader="false" sidebar="false" cache="false" contentType="text/xml" controller="SBQQ.DocumentGeneratorController">
+<block height="10.0cm" absolute-position="absolute" margin-top="-32px" margin-left="-19px">
+<external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/cover_page_top.jpg" content-width="21.1cm"/>
+</block>
+<block-container background-color="#4598CE" height="116.5px" width="410px" absolute-position="absolute" top="95.5px" left="-19px">
+<block color="#FFFFFF" font-size="18px" height="10px" font-family="Open Sans" display-align="center" text-align="right" margin-right="145px" margin-top="25px">{!quote.SBQQ__BillingName__c}</block>
+<block color="#FFFFFF" font-size="18px" height="10px" font-family="Open Sans" display-align="center" text-align="right" margin-right="145px" font-weight="bold" >POS PROPOSAL</block>
+<block color="#FFFFFF" font-size="18px" height="10px" font-family="Open Sans" display-align="center" text-align="right" margin-right="145px" >
+<apex:outputText value="{0,date, d MMMM',' yyyy}">
+<apex:param value="{!quote.SBQQ__StartDate__c}"/>
+</apex:outputText>
+</block>
+</block-container>
+<block height="10.0cm" absolute-position="absolute" margin-top="-8px" margin-left="381px">
+<external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/cover_page_side.jpg"/>
+</block>
+<block height="18.8cm" absolute-position="absolute" margin-top="-7px" margin-left="-19px">
+<external-graphic scaling="non-uniform" src="http://kbase.hlaustralia.com.au/quote-img/cover_page_bottom.jpg" content-width="21.1cm" content-height="22.0cm"/>
+</block>
+</apex:page>
